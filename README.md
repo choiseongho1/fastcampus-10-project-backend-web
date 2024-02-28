@@ -3,4 +3,5 @@
 
 <ul dir="auto">
 <li><a href="https://github.com/choiseongho1/fastcampus-10-project-backend-web/tree/main/part1">Part 1. 나만의 MVC 프레임워크 만들기</a></li>
+<li><a href="https://github.com/choiseongho1/fastcampus-10-project-backend-web/tree/main/part2">Part 2. 기본적인게시판서비스</a></li>
 </ul>
