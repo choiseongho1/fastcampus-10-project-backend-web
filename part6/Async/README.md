@@ -8,9 +8,9 @@
 	emailService.sendMailWithCustomThreadPool();
 
 결과 
-	[asyncCall_1] :: http-nio-8080-exec-1
-	[sendMail] :: defaultTaskExecutor-1
-	[sendMailWithCustomThreadPool] :: messagingTaskExecutor-1
+1. [asyncCall_1] :: http-nio-8080-exec-1
+2. [sendMail] :: defaultTaskExecutor-1
+3. [sendMailWithCustomThreadPool] :: messagingTaskExecutor-1
 
 ### 인스턴스 선언 후 인스턴스의 Method를 호출
 --------------------------
@@ -21,9 +21,9 @@
 	emailService.sendMailWithCustomThreadPool();
 
 결과 
-	[asyncCall_2] :: http-nio-8080-exec-2
-	[sendMail] :: http-nio-8080-exec-2
-	[sendMailWithCustomThreadPool] :: http-nio-8080-exec-2
+1. [asyncCall_2] :: http-nio-8080-exec-2
+2. [sendMail] :: http-nio-8080-exec-2
+3. [sendMailWithCustomThreadPool] :: http-nio-8080-exec-2
 
 
 ### 클래스 내부 Method에 Async annotation으로 호출
@@ -32,8 +32,8 @@
 	sendMail();
 
 결과
-	[asyncCall_3] :: http-nio-8080-exec-3
-	[sendMail] :: http-nio-8080-exec-3
+1. [asyncCall_3] :: http-nio-8080-exec-3
+2. [sendMail] :: http-nio-8080-exec-3
 
 ## asyncCall_1만 비동기로 작동한 이유
 ![[Pasted image 20240319175435.png]]
