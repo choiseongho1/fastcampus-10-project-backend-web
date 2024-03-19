@@ -1,0 +1,16 @@
+#logback.classic pattern: [REQUEST1] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{0}:%line] - %msg%n
+[REQUEST1] [INFO ] 2024-03-20 08:37:11 [main] [LogbackApplication:50] - Starting LogbackApplication using Java 21.0.2 with PID 70491 (/Users/choeseongho/Desktop/최성호/포트폴리오 프로젝트/fastcampus-10-project-backend-web/part6/logback/build/classes/java/main started by choeseongho in /Users/choeseongho/Desktop/최성호/포트폴리오 프로젝트/fastcampus-10-project-backend-web/part6/logback)
+[REQUEST1] [INFO ] 2024-03-20 08:37:11 [main] [LogbackApplication:660] - The following 1 profile is active: "prod"
+[REQUEST1] [INFO ] 2024-03-20 08:37:11 [main] [TomcatWebServer:109] - Tomcat initialized with port 8080 (http)
+[REQUEST1] [INFO ] 2024-03-20 08:37:11 [main] [StandardService:173] - Starting service [Tomcat]
+[REQUEST1] [INFO ] 2024-03-20 08:37:11 [main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[REQUEST1] [INFO ] 2024-03-20 08:37:12 [main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+[REQUEST1] [INFO ] 2024-03-20 08:37:12 [main] [ServletWebServerApplicationContext:296] - Root WebApplicationContext: initialization completed in 608 ms
+[REQUEST1] [INFO ] 2024-03-20 08:37:12 [main] [TomcatWebServer:241] - Tomcat started on port 8080 (http) with context path ''
+[REQUEST1] [INFO ] 2024-03-20 08:37:12 [main] [LogbackApplication:56] - Started LogbackApplication in 1.185 seconds (process running for 1.593)
+[REQUEST1] [INFO ] 2024-03-20 08:37:17 [http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[REQUEST1] [INFO ] 2024-03-20 08:37:17 [http-nio-8080-exec-1] [DispatcherServlet:532] - Initializing Servlet 'dispatcherServlet'
+[REQUEST1] [INFO ] 2024-03-20 08:37:17 [http-nio-8080-exec-1] [DispatcherServlet:554] - Completed initialization in 0 ms
+[REQUEST1] [INFO ] 2024-03-20 08:37:28 [http-nio-8080-exec-2] [MdcController:22] - log --> INFO
+[REQUEST1] [WARN ] 2024-03-20 08:37:28 [http-nio-8080-exec-2] [MdcController:23] - log --> WARN
+[REQUEST1] [ERROR] 2024-03-20 08:37:28 [http-nio-8080-exec-2] [MdcController:24] - log --> ERROR
